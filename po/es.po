@@ -1,0 +1,428 @@
+
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LOC-OS 24 Installer 1.0\n"
+"Report-Msgid-Bugs-To: facundogodoyrentero@gmail.com\n"
+"POT-Creation-Date: 2026-01-12 20:19-0300\n"
+"PO-Revision-Date: 2026-01-19 18:30-0300\n"
+"Last-Translator: DetectiveGallina <facundogodoyrentero@gmail.com>\n"
+"Language-Team: Español <es@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/tools.c:666
+msgid "(None)"
+msgstr "(Ninguno)"
+
+#: src/ui.c:622
+msgid "Add swap partition"
+msgstr "Añadir partición swap"
+
+#: src/ui.c:386
+msgid "Automatic (Recommended)"
+msgstr "Automático (Recomendado)"
+
+#: src/ui.c:644
+msgid "Boot partition:"
+msgstr "Partición de arranque:"
+
+#: src/tools.c:1628
+msgid "Close"
+msgstr "Cerrar"
+
+#: src/ui.c:779
+msgid "Confirm password"
+msgstr "Confirmar contraseña"
+
+#: src/ui.c:773
+msgid "Confirm password:"
+msgstr "Confirmar contraseña:"
+
+#: src/ui.c:833
+msgid "Confirm root password"
+msgstr "Confirmar contraseña de root"
+
+#: src/ui.c:827
+msgid "Confirm root password:"
+msgstr "Confirmar contraseña de root:"
+
+#: src/ui.c:889
+msgid "Copy Log to Clipboard"
+msgstr "Copiar registro al portapapeles"
+
+#: src/ui.c:375
+msgid "Disk Partitioning"
+msgstr "Particionado de disco"
+
+#: src/tools.c:951
+msgid "Disk partitioning"
+msgstr "Particionado de disco"
+
+#: src/ui.c:417
+msgid "Disk:"
+msgstr "Disco:"
+
+#: src/tools.c:1433
+msgid ""
+"EFI partition not configured for UEFI mode. Please go back to partition tab."
+msgstr ""
+"Partición EFI no configurada para modo UEFI. Por favor, regrese a la pestaña"
+" de particionado."
+
+#: src/ui.c:592
+msgid "EFI partition:"
+msgstr "Partición EFI:"
+
+#: src/ui.c:791
+msgid "Enable automatic login"
+msgstr "Habilitar inicio de sesión automático"
+
+#: src/ui.c:514
+msgid "Enable swap space"
+msgstr "Habilitar espacio de intercambio"
+
+#: src/ui.c:768
+msgid "Enter password"
+msgstr "Ingrese contraseña"
+
+#: src/ui.c:823
+msgid "Enter root password"
+msgstr "Ingrese contraseña de root"
+
+#: src/ui.c:739
+msgid "Enter username"
+msgstr "Ingrese nombre de usuario"
+
+#: src/installer.c:730
+#, c-format
+msgid "Failed to allocate memory\n"
+msgstr "Error al asignar memoria\n"
+
+#: src/installer.c:700
+#, c-format
+msgid "Failed to create installation thread: %s"
+msgstr "Error al crear hilo de instalación: %s"
+
+#: src/installer.c:547
+#, c-format
+msgid "Failed to start installation process: %s"
+msgstr "Error al iniciar proceso de instalación: %s"
+
+#: src/ui.c:899
+msgid "Finish Installation"
+msgstr "Finalizar instalación"
+
+#: src/ui.c:584
+msgid "For manual partitioning"
+msgstr "Para particionado manual"
+
+#: src/tools.c:1853
+msgid ""
+"GParted will open in a new window. Close it when done to refresh the "
+"partition list."
+msgstr ""
+"GParted se abrirá en una nueva ventana. Ciérrela cuando termine para "
+"actualizar la lista de particiones."
+
+#: src/ui.c:634
+msgid "Home partition:"
+msgstr "Partición home:"
+
+#: src/ui.c:753
+msgid "Hostname:"
+msgstr "Nombre de equipo:"
+
+#: src/ui.c:980
+msgid "Install"
+msgstr "Instalar"
+
+#: src/tools.c:1625
+msgid "Installation Complete"
+msgstr "Instalación completada"
+
+#: src/ui.c:868
+msgid "Installation Log"
+msgstr "Registro de instalación"
+
+#: src/ui.c:382
+msgid "Installation Mode"
+msgstr "Modo de instalación"
+
+#: src/ui.c:851
+msgid "Installation Progress"
+msgstr "Progreso de instalación"
+
+#: src/tools.c:960
+msgid "Installation complete!"
+msgstr "¡Instalación completada!"
+
+#: src/tools.c:1635
+msgid "Installation completed successfully!"
+msgstr "¡Instalación completada exitosamente!"
+
+#: src/ui.c:62
+msgid ""
+"Installation completed successfully!\n"
+"\n"
+"Click 'Finish Installation' to complete."
+msgstr ""
+"¡Instalación completada exitosamente!\n"
+"\n"
+"Haga clic en 'Finalizar instalación' para completar."
+
+#: src/installer.c:650
+#, c-format
+msgid "Installation failed with exit code %d"
+msgstr "Instalación fallida con código de salida %d"
+
+#: src/tools.c:958
+msgid "Installation in progress..."
+msgstr "Instalación en progreso..."
+
+#: src/ui.c:96
+msgid "Installation log copied to clipboard"
+msgstr "Registro de instalación copiado al portapapeles"
+
+#: src/tools.c:1298
+msgid ""
+"Invalid hostname. Use 1-63 characters, letters, numbers and hyphens only."
+msgstr ""
+"Nombre de equipo inválido. Use solo 1-63 caracteres, letras, números y "
+"guiones."
+
+#: src/tools.c:1313
+msgid "Invalid password. Use at least 1 character"
+msgstr "Contraseña inválida. Use al menos 1 carácter"
+
+#: src/tools.c:1376
+msgid "Invalid root password. Use at least 1 character"
+msgstr "Contraseña de root inválida. Use al menos 1 carácter"
+
+#: src/tools.c:1283
+msgid ""
+"Invalid username. Use 2-32 characters, letters, numbers, underscores and "
+"hyphens only."
+msgstr ""
+"Nombre de usuario inválido. Use solo 2-32 caracteres, letras, números, "
+"guiones bajos y guiones."
+
+#: src/ui.c:312
+msgid "Keyboard Layout:"
+msgstr "Distribución de teclado:"
+
+#: src/ui.c:340
+msgid "Keyboard Variant:"
+msgstr "Variante de teclado:"
+
+#: src/ui.c:928
+msgid "LOC-OS 24 Installer"
+msgstr "Instalador de LOC-OS 24"
+
+#: src/ui.c:204
+msgid "Language:"
+msgstr "Idioma:"
+
+#: src/ui.c:535
+msgid "MB"
+msgstr "MB"
+
+#: src/ui.c:388
+msgid "Manual"
+msgstr "Manual"
+
+#: src/ui.c:979
+msgid "Next"
+msgstr "Siguiente"
+
+#: src/ui.c:579
+msgid "Open GParted"
+msgstr "Abrir GParted"
+
+#: src/tools.c:1870
+msgid "Partition list refreshed."
+msgstr "Lista de particiones actualizada."
+
+#: src/ui.c:763
+msgid "Password:"
+msgstr "Contraseña:"
+
+#: src/tools.c:1268
+msgid "Passwords do not match"
+msgstr "Las contraseñas no coinciden"
+
+#: src/tools.c:1254
+msgid "Please enter a password"
+msgstr "Por favor, ingrese una contraseña"
+
+#: src/tools.c:1346
+msgid "Please enter a password for root"
+msgstr "Por favor, ingrese una contraseña para root"
+
+#: src/tools.c:1240
+msgid "Please enter a valid username (minimum 2 characters)"
+msgstr "Por favor, ingrese un nombre de usuario válido (mínimo 2 caracteres)"
+
+#: src/tools.c:1011
+msgid "Please select a partition for root (/)"
+msgstr "Por favor, seleccione una partición para root (/)"
+
+#: src/ui.c:978
+msgid "Previous"
+msgstr "Anterior"
+
+#: src/tools.c:962
+msgid "Ready to install"
+msgstr "Listo para instalar"
+
+#: src/ui.c:744
+msgid "Real name:"
+msgstr "Nombre real:"
+
+#: src/tools.c:1629
+msgid "Reboot"
+msgstr "Reiniciar"
+
+#: src/ui.c:193
+msgid "Regional Settings"
+msgstr "Configuración regional"
+
+#: src/tools.c:948
+msgid "Regional settings"
+msgstr "Configuración regional"
+
+#: src/ui.c:808
+msgid "Root Password Settings"
+msgstr "Configuración de contraseña de root"
+
+#: src/tools.c:1422
+msgid "Root partition not configured. Please go back to partition tab."
+msgstr "Partición root no configurada. Por favor, regrese a la pestaña de particionado."
+
+#: src/ui.c:602
+msgid "Root partition:"
+msgstr "Partición root:"
+
+#: src/ui.c:817
+msgid "Root password:"
+msgstr "Contraseña de root:"
+
+#: src/tools.c:1361
+msgid "Root passwords do not match"
+msgstr "Las contraseñas de root no coinciden"
+
+#: src/ui.c:617
+msgid "Separate /boot"
+msgstr "Separar /boot"
+
+#: src/ui.c:613
+msgid "Separate /home"
+msgstr "Separar /home"
+
+#: src/ui.c:529
+msgid "Size:"
+msgstr "Tamaño:"
+
+#: src/ui.c:490
+msgid "Sorry, no disks detected"
+msgstr "Lo siento, no se detectaron discos"
+
+#: src/installer.c:691
+msgid "Starting installation..."
+msgstr "Iniciando instalación..."
+
+#: src/ui.c:510
+msgid "Swap Options"
+msgstr "Opciones de intercambio"
+
+#: src/ui.c:525
+msgid "Swap file"
+msgstr "Archivo de intercambio"
+
+#: src/ui.c:523
+msgid "Swap partition"
+msgstr "Partición de intercambio"
+
+#: src/ui.c:654
+msgid "Swap partition:"
+msgstr "Partición swap:"
+
+#: src/ui.c:502 src/ui.c:571
+msgid "System detected: BIOS/Legacy Mode"
+msgstr "Sistema detectado: Modo BIOS/Legacy"
+
+#: src/ui.c:500
+msgid "System detected: UEFI Mode"
+msgstr "Sistema detectado: Modo UEFI"
+
+#: src/ui.c:569
+msgid ""
+"System detected: UEFI Mode, remember to do a EFI partition at the start of "
+"around 200 MB"
+msgstr ""
+"Sistema detectado: Modo UEFI, recuerde crear una partición EFI al inicio de "
+"aproximadamente 200 MB"
+
+#: src/tools.c:1581
+#, c-format
+msgid ""
+"This will erase all data on %s and install LOC-OS 24.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"Esto borrará todos los datos en %s e instalará LOC-OS 24.\n"
+"\n"
+"¿Desea continuar?"
+
+#: src/tools.c:1589
+msgid ""
+"This will install LOC-OS 24 using the selected partitions.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"Esto instalará LOC-OS 24 usando las particiones seleccionadas.\n"
+"\n"
+"¿Desea continuar?"
+
+#: src/ui.c:253
+msgid "Timezone:"
+msgstr "Zona horaria:"
+
+#: src/tools.c:1025
+msgid "UEFI mode detected. Please select a partition for EFI"
+msgstr "Modo UEFI detectado. Por favor, seleccione una partición para EFI"
+
+#: src/ui.c:796
+msgid "Use same password for root"
+msgstr "Usar la misma contraseña para root"
+
+#: src/ui.c:721
+msgid "User Configuration"
+msgstr "Configuración de usuario"
+
+#: src/tools.c:954
+msgid "User configuration"
+msgstr "Configuración de usuario"
+
+#: src/ui.c:735
+msgid "Username:"
+msgstr "Nombre de usuario:"
+
+#: src/tools.c:1061
+msgid "You selected separate /boot but didn't select a partition for it"
+msgstr "Seleccionó separar /boot pero no seleccionó una partición para ello"
+
+#: src/tools.c:1043
+msgid "You selected separate /home but didn't select a partition for it"
+msgstr "Seleccionó separar /home pero no seleccionó una partición para ello"
+
+#: src/tools.c:1079
+msgid "You selected to add swap but didn't select a partition for it"
+msgstr "Seleccionó añadir swap pero no seleccionó una partición para ello"
+
+#: src/ui.c:748
+msgid "Your full name"
+msgstr "Su nombre completo"
