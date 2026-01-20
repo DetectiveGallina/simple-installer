@@ -21,5 +21,5 @@ sudo make install
 ## Usage
 
 ```bash
-simple-installer
+loc-installer
 ```
