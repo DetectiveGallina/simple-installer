@@ -202,7 +202,7 @@ partition_disk() {
 
     # Crear tabla de particiones
     log "Creating partition table..."
-    if [ "$uefi" = "uefi" ]; then
+    if [ "$uefi" = "true" ]; then
         if ! parted -s "$disk" mklabel gpt 2>&1 | tee -a "$LOG_FILE"; then
             error "Failed to create GPT partition table"
         fi
@@ -218,7 +218,7 @@ partition_disk() {
     local part_num=1
 
     # Partición EFI para UEFI
-    if [ "$uefi" = "uefi" ]; then
+    if [ "$uefi" = "true" ]; then
         log "Creating EFI partition (512MB)"
         if ! parted -s "$disk" mkpart primary fat32 "$start" 513MiB 2>&1 | tee -a "$LOG_FILE"; then
             error "Failed to create EFI partition"
